@@ -1,0 +1,53 @@
+.amazon-slider3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;   
+  }
+  .card3 h3,p,h4,span{
+    line-height: 0.5;
+  }
+  
+  .slider-container3 {
+    display: flex;
+    overflow-x: hidden; /* This should prevent horizontal scrollbar */
+    scroll-behavior: smooth;
+    gap: 16px;
+    padding: 10px 0; /* Adjust padding to manage card spacing */
+
+  }
+  
+  .card5 {
+    min-width: 25vw;
+    height: 55vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-sizing: border-box; 
+  }
+  
+  .card-image5 {
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 10px;
+  }
+  
+  .scroll-button3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f3f3f3;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .scroll-button3.left {
+    left: 0;
+  }
+  
+  .scroll-button3.right {
+    right: 0;
+  }

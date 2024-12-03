@@ -1,0 +1,383 @@
+/* All */
+
+.big-container {
+  width: 100%;
+  height: 100%;
+}
+
+.amazon-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.card h3,
+p,
+h4,
+span {
+  line-height: 0.5;
+}
+
+.slider-container {
+  display: flex;
+  overflow-x: hidden;
+  /* This should prevent horizontal scrollbar */
+  scroll-behavior: smooth;
+  gap: 16px;
+  padding: 10px 0;
+  /* Adjust padding to manage card spacing */
+
+}
+
+.elements {
+  width: 17vw;
+
+}
+
+.card {
+  min-width: 20vw;
+  height: 60vh;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.card-image {
+  width: 100%;
+  height: 30vh;
+  margin-bottom: 10px;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #f3f3f3;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.scroll-button.left {
+  left: 0;
+}
+
+.scroll-button.right {
+  right: 0;
+}
+
+.contain1 {
+  background: whitesmoke;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+}
+
+.sml-container1 {
+  width: 23.5vw;
+  height: 70vh;
+  background-color: white;
+  position: relative;
+  top: 20px;
+  text-align: center;
+  overflow: auto;
+}
+
+.ig2 {
+  width: 21vw;
+  height: 48.7vh;
+  object-fit: cover;
+
+}
+
+.ig3 {
+  width: 21vw;
+  height: 44vh;
+  object-fit: cover;
+}
+
+.sml-container1 h2 {
+  padding: 0 25px;
+}
+
+.bttn {
+  width: 18vw;
+  height: 5vh;
+  position: relative;
+  left: 20px;
+  border-radius: 25px;
+  font-family: "Noto Sans", sans-serif;
+  background-color: rgb(252, 207, 9);
+  border: none;
+  font-weight: 600;
+}
+
+.imgs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ig {
+  width: 11vw;
+  height: 22.5vh;
+  object-fit: cover;
+}
+
+.sml-container2 {
+  width: 23.5vw;
+  height: 23vh;
+  background-color: white;
+  position: relative;
+  top: 20px;
+  overflow: auto;
+}
+
+.sml-container2 h2 {
+  padding: 0 22px;
+}
+
+.sml-container3 {
+  width: 23.5vw;
+  height: 50vh;
+  overflow: auto;
+}
+
+.two-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 23.5vw;
+  height: 27vh;
+}
+
+.iphone {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 16vh;
+  background-color: white;
+}
+
+.iphone p {
+  font-weight: 500;
+}
+
+.iphone button {
+  width: 8vw;
+  height: 4vh;
+  border-radius: 25px;
+  font-family: "Noto Sans", sans-serif;
+  background-color: rgb(252, 207, 9);
+  border: none;
+  font-weight: 600;
+}
+
+.sml-container1 button {
+  border: none;
+  color: blue;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.pt {
+  width: 100%;
+  height: 50vh;
+
+}
+
+.cntain {
+  width: 100%;
+  height: 100vh;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.s-cntain {
+  width: 30%;
+  height: 100vh;
+  background-color: white;
+}
+
+.s-cntain h2 {
+  font-family: "Lato", sans-serif;
+  padding: 0 14px;
+}
+
+.s-cntain i {
+  position: relative;
+  left: 10vw;
+  font-size: 20px;
+  color: blue;
+}
+
+.smi-contain img {
+  width: 12vw;
+  height: 26vh;
+  padding: 10px;
+}
+
+.smi-contain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.box-contain {
+  border: 0.1px solid rgb(172, 171, 171);
+  border-radius: 5px;
+  width: 14vw;
+  height: 40vh;
+}
+
+.box-contain button {
+  color: green;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  background-color: white;
+}
+
+.s-cntain1 img {
+  width: 37vw;
+  height: 99vh;
+}
+
+.first-elm {
+  width: 100%;
+  height: 100vh;
+}
+
+.first-elm .top-img {
+  width: 100%;
+
+}
+
+.bn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bn img {
+  width: 32vw;
+
+}
+
+.bn1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 10px 0;
+}
+
+.bn1 img {
+  width: 32vw;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer span {
+  color: blue;
+}
+
+hr {
+  color: rgb(230, 226, 226);
+}
+
+.footer p {
+  font-size: 12px;
+}
+
+.footer button {
+  width: 17vw;
+  height: 4.5vh;
+  background: rgb(255, 153, 0);
+  border-color: rgb(255, 153, 0);
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.footer-first {
+  width: 100%;
+  height: 8vh;
+  background-color: rgb(23, 23, 77);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-color: rgb(26, 26, 87);
+}
+
+.footer1 {
+  background-color: rgb(14, 14, 36);
+  color: white;
+  height: 70vh;
+  padding: 40px 0;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+.footer-col {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-col h4 {
+  line-height: 1;
+}
+
+.lenk {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2;
+}
+
+.lenk a {
+  color: rgb(190, 186, 186);
+
+}
+
+.lenk ul li {
+  list-style-type: none;
+}
+
+.flag img {
+  width: 2vw;
+  height: 3vh;
+}
