@@ -1,0 +1,94 @@
+[
+    {
+        "id": 1,
+        "name": "Men's Shirt",
+        "category": "Men's clothing",
+        "price": 1500,
+        "brand": "puma",
+       "size":["M","L","XL"],
+       "color":["Black","Grey"]
+    },
+    {
+        "id": 2,
+        "name": "Men's jeans",
+        "category": "Men's clothing",
+        "price": 1000,
+        "brand": "Levi's",
+       "size":["M","L","XL"],
+       "color":["Black","Blue"]
+    },
+    {
+        "id": 3,
+        "name": "Men's Tshirt",
+        "category": "Men's clothing",
+        "price": 1299,
+        "brand": "Levi's",
+       "size":["M","L","XL"],
+       "color":["White","Green"]
+    },
+    {
+        "id": 4,
+        "name": "Men's jeans",
+        "category": "Men's clothing",
+        "price": 1999,
+        "brand": "H&M",
+       "size":["M","L","XL"],
+       "color":["White","Black"]
+    },
+    {
+        "id": 5,
+        "name": "Men's Shirt",
+        "category": "Men's clothing",
+        "price": 999,
+        "brand": "H&M",
+       "size":["M","L","XL","XXL"],
+       "color":["Pink","Brown"]
+    },
+    {
+        "id": 6,
+        "name": "Men's Tshirt",
+        "category": "Men's clothing",
+        "price": 1500,
+        "brand": "Zara",
+       "size":["M","L","XL","XXL"],
+       "color":["Pink","Brown","Grey"]
+    },
+ 
+    {
+        "id": 7,
+        "name": "Women's Tshirt",
+        "category": "Women's clothing",
+        "price": 2000,
+        "brand": "Zara",
+       "size":["M","L","XL","XXL"],
+       "color":["Pink","Brown","Black","Blue"]
+    },
+    {
+        "id": 8,
+        "name": "Shoes",
+        "category": "Shoes",
+        "price": 1500,
+        "brand": "Addidas",
+       "size":["M","L","XL"],
+       "color":["White","Black","Blue","Brown"]
+    },
+    {
+        "id": 9,
+        "name": "Shoes",
+        "category": "Shoes",
+        "price": 2500,
+        "brand": "Addidas",
+       "size":["M","L","XL"],
+       "color":["White","Black","Blue","Brown"]
+    },
+    {
+        "id": 10,
+        "name": "Socks",
+        "category": "Socks",
+        "price": 500,
+        "brand": "H&M",
+       "size":["M","L","XL"],
+       "color":["White","Black","Blue","Brown"]
+    }
+
+]
